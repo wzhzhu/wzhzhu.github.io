@@ -11,13 +11,13 @@ I am a postdoctoral fellow at the University of Science and Technology of China.
 
 ## Selected Publications
 
-*<sup>*</sup> denotes lead and corresponding author.*
+\* denotes lead and corresponding author.
 
-- Xiyuan Liang, **Wenzhe Zhu**<sup>*</sup>, Chang Feng, Weiqiang Yu, Xinran Zhang, and Weifa Liang.  
+- Xiyuan Liang, **Wenzhe Zhu***, Chang Feng, Weiqiang Yu, Xinran Zhang, and Weifa Liang.  
   **XORbit: Bypassing Update and Repair Penalties in Erasure-Coded KV Stores via Dynamic Decoupling.**  
   To appear in *International Symposium on Reliable Distributed Systems* (**SRDS 2026**).
 
-- Haoting Tang, **Wenzhe Zhu**<sup>*</sup>, Qingyang Zhang, Jiakun Zhang, Junlin Jiang, Zaigui Zhang, Haijun Zhang, Yongkun Li, and Yinlong Xu.  
+- Haoting Tang, **Wenzhe Zhu***, Qingyang Zhang, Jiakun Zhang, Junlin Jiang, Zaigui Zhang, Haijun Zhang, Yongkun Li, and Yinlong Xu.  
   **CoCache: Accelerating Reads in KV Stores via Cooperative Metadata and Data Cache Management.**  
   To appear in *ACM International Conference on Supercomputing* (**ICS 2026**).
 
@@ -25,7 +25,7 @@ I am a postdoctoral fellow at the University of Science and Technology of China.
   **Cooperative Scheduling Between CPU and Disk I/O for Load Balancing in Distributed Key-Value Stores.**  
   *IEEE International Conference on Data Engineering* (**ICDE 2026**).
 
-- Zhiqiang Wang, **Wenzhe Zhu**<sup>*</sup>, Zaigui Zhang, Chaomei Yan, Fan Guo, Yongkun Li, and Yinlong Xu.  
+- Zhiqiang Wang, **Wenzhe Zhu***, Zaigui Zhang, Chaomei Yan, Fan Guo, Yongkun Li, and Yinlong Xu.  
   **Amber: Towards Fast and Space-Efficient Incremental Checkpointing in Large Language Model Training.**  
   *International Conference on Parallel Processing* (**ICPP 2025**).
 
