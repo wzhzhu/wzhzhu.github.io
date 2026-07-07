@@ -14,39 +14,39 @@ I am a postdoctoral fellow at the University of Science and Technology of China.
 \* denotes lead and corresponding author.
 
 - **XORbit: Bypassing Update and Repair Penalties in Erasure-Coded KV Stores via Dynamic Decoupling.**  
-  Xiyuan Liang, <u><em>Wenzhe Zhu</em></u>*, Chang Feng, Weiqiang Yu, Xinran Zhang, and Weifa Liang.  
+  Xiyuan Liang, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span><span>*</span>, Chang Feng, Weiqiang Yu, Xinran Zhang, and Weifa Liang.  
   To appear in *International Symposium on Reliable Distributed Systems* (**SRDS 2026**).
 
 - **CoCache: Accelerating Reads in KV Stores via Cooperative Metadata and Data Cache Management.**  
-  Haoting Tang, <u><em>Wenzhe Zhu</em></u>*, Qingyang Zhang, Jiakun Zhang, Junlin Jiang, Zaigui Zhang, Haijun Zhang, Yongkun Li, and Yinlong Xu.  
+  Haoting Tang, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span><span>*</span>, Qingyang Zhang, Jiakun Zhang, Junlin Jiang, Zaigui Zhang, Haijun Zhang, Yongkun Li, and Yinlong Xu.  
   To appear in *ACM International Conference on Supercomputing* (**ICS 2026**).
 
 - **Cooperative Scheduling Between CPU and Disk I/O for Load Balancing in Distributed Key-Value Stores.**  
-  Jiakun Zhang, Patrick P. C. Lee, <u><em>Wenzhe Zhu</em></u>, Yongkun Li, Shuyi Zhang, and Yinlong Xu.  
+  Jiakun Zhang, Patrick P. C. Lee, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span>, Yongkun Li, Shuyi Zhang, and Yinlong Xu.  
   *IEEE International Conference on Data Engineering* (**ICDE 2026**).
 
 - **Amber: Towards Fast and Space-Efficient Incremental Checkpointing in Large Language Model Training.**  
-  Zhiqiang Wang, <u><em>Wenzhe Zhu</em></u>*, Zaigui Zhang, Chaomei Yan, Fan Guo, Yongkun Li, and Yinlong Xu.  
+  Zhiqiang Wang, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span><span>*</span>, Zaigui Zhang, Chaomei Yan, Fan Guo, Yongkun Li, and Yinlong Xu.  
   *International Conference on Parallel Processing* (**ICPP 2025**).
-  
+
 - **PTWalker: Cache-Efficient Random Walks via Alternating Dual-Subgraph Walker Updating.**  
-  Shuai Lin, Rui Wang, Zaigui Zhang, Long Deng, <u><em>Wenzhe Zhu</em></u>, Yongkun Li, and Yinlong Xu.  
+  Shuai Lin, Rui Wang, Zaigui Zhang, Long Deng, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span>, Yongkun Li, and Yinlong Xu.  
   *International Conference on Parallel Processing* (**ICPP 2025**).
 
 - **FineMem: Breaking the Allocation Overhead vs. Memory Waste Dilemma in Fine-Grained Disaggregated Memory Management.**  
-  Xiaoyang Wang, Yongkun Li, Kan Wu, <u><em>Wenzhe Zhu</em></u>, Yuqi Li, and Yinlong Xu.  
+  Xiaoyang Wang, Yongkun Li, Kan Wu, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span>, Yuqi Li, and Yinlong Xu.  
   *USENIX Symposium on Operating Systems Design and Implementation* (**OSDI 2025**).
 
 - **MinFlow: High-Performance and Cost-Efficient Data Passing for I/O-Intensive Stateful Serverless Analytics.**  
-  Tao Li, Yongkun Li, <u><em>Wenzhe Zhu</em></u>, Yinlong Xu, and John C. S. Lui.  
+  Tao Li, Yongkun Li, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span>, Yinlong Xu, and John C. S. Lui.  
   *USENIX Conference on File and Storage Technologies* (**FAST 2024**).
 
 - **DiffForward: On Balancing Forwarding Traffic for Modern Cloud Block Services via Differentiated Forwarding.**  
-  <u><em>Wenzhe Zhu</em></u>, Yongkun Li, Erci Xu, Fei Li, Yinlong Xu, and John C. S. Lui.  
+  <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span>, Yongkun Li, Erci Xu, Fei Li, Yinlong Xu, and John C. S. Lui.  
   *ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems* (**SIGMETRICS 2023**).
 
 - **On Optimizing Traffic Imbalance in Large-Scale Block-Based Cloud Storage: Trace Analysis and Algorithm Design.**  
-  Haoyu Mao, Yongkun Li, <u><em>Wenzhe Zhu</em></u>, Fei Li, and Yinlong Xu.  
+  Haoyu Mao, Yongkun Li, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span>, Fei Li, and Yinlong Xu.  
   *IEEE International Conference on Parallel and Distributed Systems* (**ICPADS 2022**).
 
 ## Education
