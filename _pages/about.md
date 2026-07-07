@@ -59,9 +59,11 @@ I am a postdoctoral fellow at the University of Science and Technology of China.
   
 ## Work Experience
 
+- **University of Science and Technology of China**, Hefei, China  
+  *Postdoctoral Fellow, Aug. 2025 – now*
+
 - **Alibaba Cloud**, Beijing, China  
-  *Research Intern, Nov. 2019 – Jun. 2021*  
-  Low-latency and fairness-aware traffic scheduling in distributed block storage systems.
+  *Research Intern, Nov. 2019 – Jun. 2021*
   
 ## Personal Interests
 
