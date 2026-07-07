@@ -15,11 +15,11 @@ I am a postdoctoral fellow at the University of Science and Technology of China.
 
 - **XORbit: Bypassing Update and Repair Penalties in Erasure-Coded KV Stores via Dynamic Decoupling.**  
   Xiyuan Liang, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span><span>*</span>, Chang Feng, Weiqiang Yu, Xinran Zhang, and Weifa Liang.  
-  To appear in *International Symposium on Reliable Distributed Systems* (**SRDS 2026**).
+  *International Symposium on Reliable Distributed Systems* (**SRDS 2026**).
 
 - **CoCache: Accelerating Reads in KV Stores via Cooperative Metadata and Data Cache Management.**  
   Haoting Tang, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span><span>*</span>, Qingyang Zhang, Jiakun Zhang, Junlin Jiang, Zaigui Zhang, Haijun Zhang, Yongkun Li, and Yinlong Xu.  
-  To appear in *ACM International Conference on Supercomputing* (**ICS 2026**).
+  *ACM International Conference on Supercomputing* (**ICS 2026**).
 
 - **Cooperative Scheduling Between CPU and Disk I/O for Load Balancing in Distributed Key-Value Stores.**  
   Jiakun Zhang, Patrick P. C. Lee, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span>, Yongkun Li, Shuyi Zhang, and Yinlong Xu.  
