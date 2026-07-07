@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Wenzhe Zhu"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him"  
   bio              : "Postdoctoral Fellow"
   location         : "Hefei, China"
   employer         : "USTC"
@@ -45,6 +45,7 @@ author:
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
+  wechat           : "https://scholar.google.com/citations?user=3sxgzvAAAAAJ"
 
 
   # Repositories and software development
