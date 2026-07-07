@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral fellow at the University of Science and Technology of China. I received my Ph.D. in 2025 under the supervision of Prof. [Yinlong Xu](https://cs.ustc.edu.cn/2020/0828/c23235a460084/page.htm) and Prof. [Yongkun Li](http://staff.ustc.edu.cn/~ykli/). My research focuses on building scalable and resource-efficient storage, memory, and data-serving systems for data-intensive computing and emerging AI workloads. My work spans distributed storage systems, key-value stores, disaggregated memory, vector databases for AI retrieval, and checkpointing systems for large language model training.
+I am a postdoctoral fellow at the University of Science and Technology of China. I received my Ph.D. in 2025 under the supervision of Prof. [Yinlong Xu](https://cs.ustc.edu.cn/2020/0828/c23235a460084/page.htm) and Prof. [Yongkun Li](http://staff.ustc.edu.cn/~ykli/). My research focuses on building scalable and resource-efficient storage, memory, and data-serving systems for data-intensive computing and emerging AI workloads.
 
 ## Publications
 
