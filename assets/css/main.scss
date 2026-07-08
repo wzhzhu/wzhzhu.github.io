@@ -38,152 +38,173 @@
     "layout/json_cv"
 ;
 
-/* Compact animated footer */
+/* Compact cosmic footer */
 .custom-footer {
-  margin-top: 1.6em;
-  padding: 0.65em 1em;
+  margin-top: 1.2rem;
+  padding: 0.45rem 1rem;
   border-top: 1px solid rgba(180, 190, 205, 0.35);
   background: transparent;
   color: #6a737d;
-  overflow: hidden;
+  line-height: 1;
 }
 
 .footer-inner {
   max-width: 980px;
   margin: 0 auto;
-  min-height: 42px;
+  min-height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.75em;
+  gap: 0.55rem;
 }
 
 .footer-text {
-  font-size: 0.76em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0;
+  font-size: 0.74rem;
+  line-height: 1.4;
   color: #6f7f91;
   letter-spacing: 0.01em;
-  line-height: 1.5;
   text-align: center;
 }
 
 .footer-dot {
-  margin: 0 0.4em;
+  margin: 0 0.38rem;
   color: #aab4c0;
 }
 
-/* Mini cosmic animation */
-.mini-orbit {
+/* small animated cosmic mark */
+.cosmic-mark {
   position: relative;
-  width: 42px;
-  height: 42px;
-  flex: 0 0 42px;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  display: inline-block;
 }
 
-.mini-sun {
+.cosmic-sun {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 9px;
-  height: 9px;
-  margin-left: -4.5px;
-  margin-top: -4.5px;
+  width: 7px;
+  height: 7px;
+  margin-left: -3.5px;
+  margin-top: -3.5px;
   border-radius: 50%;
-  background: radial-gradient(circle, #ffd166 0%, #f59f00 75%);
-  box-shadow: 0 0 8px rgba(245, 159, 0, 0.45);
+  background: radial-gradient(circle, #ffd166 0%, #f59f00 80%);
+  box-shadow: 0 0 7px rgba(245, 159, 0, 0.5);
+  z-index: 3;
 }
 
-.mini-orbit-path {
+.cosmic-ring {
   position: absolute;
   left: 50%;
   top: 50%;
-  border: 1px solid rgba(95, 155, 220, 0.28);
+  border: 1px solid rgba(95, 155, 220, 0.32);
   border-radius: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
-.mini-orbit-path-1 {
-  width: 24px;
-  height: 24px;
+.cosmic-ring-1 {
+  width: 18px;
+  height: 18px;
 }
 
-.mini-orbit-path-2 {
-  width: 36px;
-  height: 36px;
+.cosmic-ring-2 {
+  width: 28px;
+  height: 28px;
 }
 
-.mini-planet {
+.cosmic-planet {
   position: absolute;
   left: 50%;
   top: 50%;
+  width: 4.5px;
+  height: 4.5px;
+  margin-left: -2.25px;
+  margin-top: -2.25px;
   border-radius: 50%;
-  transform-origin: 0 0;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  z-index: 2;
 }
 
-.mini-planet::after {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.mini-planet-1 {
-  animation-name: mini-orbit-spin-1;
-  animation-duration: 5s;
-}
-
-.mini-planet-1::after {
-  left: 12px;
-  top: 0;
-  width: 5px;
-  height: 5px;
+.cosmic-planet-1 {
   background: #4dabf7;
-  box-shadow: 0 0 6px rgba(77, 171, 247, 0.55);
+  box-shadow: 0 0 5px rgba(77, 171, 247, 0.6);
+  animation: cosmic-orbit-1 4.8s linear infinite;
 }
 
-.mini-planet-2 {
-  animation-name: mini-orbit-spin-2;
-  animation-duration: 8s;
-}
-
-.mini-planet-2::after {
-  left: 18px;
-  top: 0;
-  width: 5px;
-  height: 5px;
+.cosmic-planet-2 {
   background: #b197fc;
-  box-shadow: 0 0 6px rgba(177, 151, 252, 0.55);
+  box-shadow: 0 0 5px rgba(177, 151, 252, 0.6);
+  animation: cosmic-orbit-2 7.5s linear infinite;
 }
 
-@keyframes mini-orbit-spin-1 {
+@keyframes cosmic-orbit-1 {
   from {
-    transform: rotate(20deg);
+    transform: rotate(0deg) translateX(9px) rotate(0deg);
   }
 
   to {
-    transform: rotate(380deg);
+    transform: rotate(360deg) translateX(9px) rotate(-360deg);
   }
 }
 
-@keyframes mini-orbit-spin-2 {
+@keyframes cosmic-orbit-2 {
   from {
-    transform: rotate(200deg);
+    transform: rotate(140deg) translateX(14px) rotate(-140deg);
   }
 
   to {
-    transform: rotate(560deg);
+    transform: rotate(500deg) translateX(14px) rotate(-500deg);
   }
 }
 
 @media screen and (max-width: 600px) {
   .footer-inner {
-    flex-direction: column;
-    gap: 0.3em;
-    min-height: auto;
+    gap: 0.4rem;
   }
 
   .footer-text {
-    font-size: 0.72em;
+    font-size: 0.7rem;
+  }
+
+  .cosmic-mark {
+    width: 26px;
+    height: 26px;
+    flex-basis: 26px;
+  }
+
+  .cosmic-ring-1 {
+    width: 16px;
+    height: 16px;
+  }
+
+  .cosmic-ring-2 {
+    width: 24px;
+    height: 24px;
+  }
+
+  @keyframes cosmic-orbit-1 {
+    from {
+      transform: rotate(0deg) translateX(8px) rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg) translateX(8px) rotate(-360deg);
+    }
+  }
+
+  @keyframes cosmic-orbit-2 {
+    from {
+      transform: rotate(140deg) translateX(12px) rotate(-140deg);
+    }
+
+    to {
+      transform: rotate(500deg) translateX(12px) rotate(-500deg);
+    }
   }
 }
