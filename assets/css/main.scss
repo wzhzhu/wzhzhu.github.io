@@ -493,3 +493,22 @@ footer#cosmic-footer div#cosmic-footer-icon span.cf-dot-3 {
     0 0 6px rgba(251, 113, 133, 0.88),
     0 0 12px rgba(251, 113, 133, 0.34) !important;
 }
+
+
+footer#cosmic-footer > div#cosmic-footer-chip {
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease !important;
+}
+
+footer#cosmic-footer > div#cosmic-footer-chip:hover {
+  transform: translateY(-1px) !important;
+  border-color: rgba(56, 189, 248, 0.42) !important;
+
+  box-shadow:
+    0 10px 30px rgba(15, 23, 42, 0.075),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    0 0 22px rgba(56, 189, 248, 0.22),
+    0 0 34px rgba(168, 85, 247, 0.13) !important;
+}
