@@ -38,6 +38,132 @@
     "layout/json_cv"
 ;
 
-.page__footer {
-  display: none !important;
+/* Custom animated footer */
+.custom-footer {
+  margin-top: 3em;
+  padding: 2.5em 1em;
+  border-top: 1px solid #eaeaea;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+  color: #6a737d;
+  text-align: center;
+  overflow: hidden;
+}
+
+.footer-space {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2em;
+}
+
+.orbit-system {
+  position: relative;
+  width: 110px;
+  height: 110px;
+}
+
+.sun {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  margin-left: -9px;
+  margin-top: -9px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffd166 0%, #f4a261 70%);
+  box-shadow: 0 0 12px rgba(244, 162, 97, 0.6);
+}
+
+.orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 1px dashed rgba(80, 130, 200, 0.35);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: footer-orbit;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.orbit-1 {
+  width: 42px;
+  height: 42px;
+  animation-duration: 5s;
+}
+
+.orbit-2 {
+  width: 62px;
+  height: 62px;
+  animation-duration: 8s;
+}
+
+.orbit-3 {
+  width: 82px;
+  height: 82px;
+  animation-duration: 12s;
+}
+
+.orbit-4 {
+  width: 102px;
+  height: 102px;
+  animation-duration: 16s;
+}
+
+.planet {
+  position: absolute;
+  left: 50%;
+  top: -4px;
+  border-radius: 50%;
+}
+
+.planet-1 {
+  width: 7px;
+  height: 7px;
+  background: #4dabf7;
+}
+
+.planet-2 {
+  width: 8px;
+  height: 8px;
+  background: #69db7c;
+}
+
+.planet-3 {
+  width: 7px;
+  height: 7px;
+  background: #ff8787;
+}
+
+.planet-4 {
+  width: 9px;
+  height: 9px;
+  background: #b197fc;
+}
+
+.footer-text {
+  font-size: 0.8em;
+  color: #7a8490;
+  letter-spacing: 0.01em;
+}
+
+.footer-dot {
+  margin: 0 0.45em;
+  color: #adb5bd;
+}
+
+@keyframes footer-orbit {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orbit {
+    animation: none;
+  }
 }
