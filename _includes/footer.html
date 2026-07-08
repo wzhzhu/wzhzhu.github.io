@@ -2,25 +2,36 @@
   <div class="footer-space">
     <div class="orbit-system" aria-hidden="true">
       <div class="sun"></div>
-      <div class="orbit orbit-1">
+
+      <div class="orbit-ring orbit-ring-1"></div>
+      <div class="orbit-ring orbit-ring-2"></div>
+      <div class="orbit-ring orbit-ring-3"></div>
+      <div class="orbit-ring orbit-ring-4"></div>
+
+      <div class="planet-orbit planet-orbit-1">
         <div class="planet planet-1"></div>
       </div>
-      <div class="orbit orbit-2">
+
+      <div class="planet-orbit planet-orbit-2">
         <div class="planet planet-2"></div>
       </div>
-      <div class="orbit orbit-3">
+
+      <div class="planet-orbit planet-orbit-3">
         <div class="planet planet-3"></div>
       </div>
-      <div class="orbit orbit-4">
+
+      <div class="planet-orbit planet-orbit-4">
         <div class="planet planet-4"></div>
       </div>
     </div>
 
-<div class="footer-text">
-  <span>© {{ site.time | date: '%Y' }} {{ site.author.name | default: site.name | default: site.title }}</span>
-  <span class="footer-dot">·</span>
-  <span>Research, systems, and a little bit of stardust.</span>
-</div>
+    <div class="footer-text">
+      <span>© {{ site.time | date: '%Y' }} {{ site.author.name | default: site.name | default: site.title }}</span>
+      <span class="footer-dot">·</span>
+      <span>Research, systems, and a little bit of stardust.</span>
+    </div>
+  </div>
+</footer>
 
 <!-- {% include base_path %}
 
