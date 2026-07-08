@@ -771,3 +771,136 @@ footer#cosmic-footer > div#cosmic-footer-chip:hover div#cosmic-footer-icon {
     margin: 0 0.32rem !important;
   }
 }
+
+/* =========================================================
+   Cosmic footer color refinement: Minimal Frost
+   Best for white minimalist homepage
+   ========================================================= */
+
+/* Container: keep it airy */
+footer#cosmic-footer {
+  padding-bottom: 0.6rem !important;
+}
+
+/* Chip: white glass, almost invisible color */
+footer#cosmic-footer > div#cosmic-footer-chip {
+  border: 1px solid rgba(148, 163, 184, 0.28) !important;
+
+  background:
+    radial-gradient(circle at 8% 50%, rgba(224, 242, 254, 0.54), transparent 34%),
+    radial-gradient(circle at 92% 50%, rgba(241, 245, 249, 0.72), transparent 36%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(248, 250, 252, 0.62)) !important;
+
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.96) inset,
+    0 -1px 0 rgba(148, 163, 184, 0.06) inset,
+    0 8px 22px rgba(15, 23, 42, 0.045),
+    0 0 18px rgba(125, 211, 252, 0.10) !important;
+
+  backdrop-filter: blur(14px) saturate(1.06) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(1.06) !important;
+}
+
+/* Halo: extremely subtle, no neon feel */
+footer#cosmic-footer > div#cosmic-footer-chip::after {
+  background:
+    radial-gradient(circle at 30% 50%, rgba(186, 230, 253, 0.16), transparent 44%),
+    radial-gradient(circle at 70% 50%, rgba(226, 232, 240, 0.22), transparent 48%) !important;
+
+  opacity: 0.72 !important;
+  filter: blur(12px) !important;
+}
+
+/* Sheen: mostly white, barely blue */
+footer#cosmic-footer > div#cosmic-footer-chip::before {
+  background: linear-gradient(
+    105deg,
+    transparent 0%,
+    transparent 28%,
+    rgba(255, 255, 255, 0.54) 43%,
+    rgba(186, 230, 253, 0.28) 52%,
+    transparent 72%,
+    transparent 100%
+  ) !important;
+
+  animation-duration: 8.5s !important;
+}
+
+/* Text: minimal slate */
+footer#cosmic-footer div#cosmic-footer-text {
+  color: #506176 !important;
+  font-weight: 420 !important;
+  letter-spacing: 0.004em !important;
+}
+
+footer#cosmic-footer div#cosmic-footer-text span.cf-sep {
+  color: #a1adbb !important;
+}
+
+/* Icon: less rainbow, more frosted atom */
+footer#cosmic-footer div#cosmic-footer-icon {
+  filter:
+    drop-shadow(0 0 4px rgba(125, 211, 252, 0.48))
+    drop-shadow(0 0 8px rgba(148, 163, 184, 0.22)) !important;
+}
+
+/* Core: small warm star, not orange blob */
+footer#cosmic-footer div#cosmic-footer-icon span.cf-core {
+  background:
+    radial-gradient(circle at 35% 30%, #ffffff 0%, #fefce8 30%, #fde68a 58%, #fbbf24 100%) !important;
+
+  box-shadow:
+    0 0 4px rgba(255, 255, 255, 0.92),
+    0 0 7px rgba(251, 191, 36, 0.58),
+    0 0 12px rgba(125, 211, 252, 0.26) !important;
+}
+
+/* Rings: pale cyan + blue gray */
+footer#cosmic-footer div#cosmic-footer-icon span.cf-ring-1 {
+  border-top-color: rgba(14, 165, 233, 0.58) !important;
+  border-bottom-color: rgba(148, 163, 184, 0.34) !important;
+}
+
+footer#cosmic-footer div#cosmic-footer-icon span.cf-ring-2 {
+  border-left-color: rgba(100, 116, 139, 0.34) !important;
+  border-right-color: rgba(125, 211, 252, 0.46) !important;
+}
+
+/* Dots: cool and restrained */
+footer#cosmic-footer div#cosmic-footer-icon span.cf-dot-1 {
+  background: #38bdf8 !important;
+  box-shadow:
+    0 0 4px rgba(56, 189, 248, 0.62),
+    0 0 8px rgba(56, 189, 248, 0.20) !important;
+}
+
+footer#cosmic-footer div#cosmic-footer-icon span.cf-dot-2 {
+  background: #94a3b8 !important;
+  box-shadow:
+    0 0 4px rgba(148, 163, 184, 0.52),
+    0 0 8px rgba(148, 163, 184, 0.18) !important;
+}
+
+footer#cosmic-footer div#cosmic-footer-icon span.cf-dot-3 {
+  background: #fbbf24 !important;
+  box-shadow:
+    0 0 4px rgba(251, 191, 36, 0.48),
+    0 0 8px rgba(251, 191, 36, 0.16) !important;
+}
+
+/* Hover: still elegant, not flashy */
+footer#cosmic-footer > div#cosmic-footer-chip:hover {
+  border-color: rgba(125, 211, 252, 0.38) !important;
+
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.98) inset,
+    0 -1px 0 rgba(148, 163, 184, 0.07) inset,
+    0 10px 26px rgba(15, 23, 42, 0.055),
+    0 0 22px rgba(125, 211, 252, 0.14) !important;
+}
+
+footer#cosmic-footer > div#cosmic-footer-chip:hover div#cosmic-footer-icon {
+  filter:
+    drop-shadow(0 0 5px rgba(125, 211, 252, 0.58))
+    drop-shadow(0 0 10px rgba(148, 163, 184, 0.26)) !important;
+}
