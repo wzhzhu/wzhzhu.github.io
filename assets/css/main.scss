@@ -58,8 +58,9 @@
 
 .orbit-system {
   position: relative;
-  width: 110px;
-  height: 110px;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
 }
 
 .sun {
@@ -72,74 +73,109 @@
   margin-top: -9px;
   border-radius: 50%;
   background: radial-gradient(circle, #ffd166 0%, #f4a261 70%);
-  box-shadow: 0 0 12px rgba(244, 162, 97, 0.6);
+  box-shadow: 0 0 14px rgba(244, 162, 97, 0.75);
+  z-index: 3;
 }
 
-.orbit {
+.orbit-ring {
   position: absolute;
   left: 50%;
   top: 50%;
   border: 1px dashed rgba(80, 130, 200, 0.35);
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  animation-name: footer-orbit;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  z-index: 1;
 }
 
-.orbit-1 {
+.orbit-ring-1 {
   width: 42px;
   height: 42px;
+}
+
+.orbit-ring-2 {
+  width: 62px;
+  height: 62px;
+}
+
+.orbit-ring-3 {
+  width: 84px;
+  height: 84px;
+}
+
+.orbit-ring-4 {
+  width: 106px;
+  height: 106px;
+}
+
+.planet-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  transform-origin: 0 0;
+  animation-name: footer-planet-orbit;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: 2;
+}
+
+.planet-orbit-1 {
   animation-duration: 5s;
 }
 
-.orbit-2 {
-  width: 62px;
-  height: 62px;
+.planet-orbit-2 {
   animation-duration: 8s;
 }
 
-.orbit-3 {
-  width: 82px;
-  height: 82px;
+.planet-orbit-3 {
   animation-duration: 12s;
 }
 
-.orbit-4 {
-  width: 102px;
-  height: 102px;
+.planet-orbit-4 {
   animation-duration: 16s;
 }
 
 .planet {
   position: absolute;
-  left: 50%;
-  top: -4px;
   border-radius: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .planet-1 {
+  left: 21px;
+  top: 0;
   width: 7px;
   height: 7px;
   background: #4dabf7;
+  box-shadow: 0 0 8px rgba(77, 171, 247, 0.6);
 }
 
 .planet-2 {
+  left: 31px;
+  top: 0;
   width: 8px;
   height: 8px;
   background: #69db7c;
+  box-shadow: 0 0 8px rgba(105, 219, 124, 0.6);
 }
 
 .planet-3 {
+  left: 42px;
+  top: 0;
   width: 7px;
   height: 7px;
   background: #ff8787;
+  box-shadow: 0 0 8px rgba(255, 135, 135, 0.6);
 }
 
 .planet-4 {
+  left: 53px;
+  top: 0;
   width: 9px;
   height: 9px;
   background: #b197fc;
+  box-shadow: 0 0 8px rgba(177, 151, 252, 0.6);
 }
 
 .footer-text {
@@ -153,17 +189,12 @@
   color: #adb5bd;
 }
 
-@keyframes footer-orbit {
+@keyframes footer-planet-orbit {
   from {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: rotate(0deg);
   }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: reduce) {
-  .orbit {
-    animation: none;
+  to {
+    transform: rotate(360deg);
   }
 }
