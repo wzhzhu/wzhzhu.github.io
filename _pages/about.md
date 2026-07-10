@@ -11,7 +11,7 @@ I am a postdoctoral fellow at the University of Science and Technology of China.
 
 ## Publications
 
-&#42; denotes corresponding author.
+&#42; denotes lead and corresponding author.
 
 - **XORbit: Bypassing Update and Repair Penalties in Erasure-Coded KV Stores via Dynamic Decoupling.**  
   Xiyuan Liang, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span>&#42;, Chang Feng, Weiqiang Yu, Xinran Zhang, and Weifa Liang.  
