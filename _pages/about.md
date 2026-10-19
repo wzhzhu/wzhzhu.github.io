@@ -16,7 +16,7 @@ I am a postdoctoral fellow at the University of Science and Technology of China.
 - **SOLO: Making Single-Local-Replica Storage Practical for Geo-Distributed Recommendation Model Training.**
   Tao Li, Long Deng, Xinyuan Li, Xukun Chen, Zheyu Lin, Shibo Chen, Shiru Ren, Jingwei Xu, Wei Zhang,
   Jianhui Lu, Yong Tian, Bin Zhang, Wei Feng, Yang Guo, Hang Cheng, Jixi Shan, Jun Song, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span>, Yongkun Li, Yinlong Xu.
-  *ACM SIGOPS Annual Technical Conference (ATC 2026)*(**ATC 2026**).
+  *ACM SIGOPS Annual Technical Conference (ATC 2026)* (**ATC 2026**).
 
 - **XORbit: Bypassing Update and Repair Penalties in Erasure-Coded KV Stores via Dynamic Decoupling.**  
   Xiyuan Liang, <span style="text-decoration: underline; font-style: italic;">Wenzhe Zhu</span>&#42;, Chang Feng, Weiqiang Yu, Xinran Zhang, and Weifa Liang.  
